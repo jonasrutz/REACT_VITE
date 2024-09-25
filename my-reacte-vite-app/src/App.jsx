@@ -12,7 +12,7 @@ function App() {
     <>
 <html>
   <head>
-    <title>The Generics</title>
+    <title>Leaflet</title>
     <meta name="description" content="This is the description" />
     <link rel="stylesheet" href="index.css" />
   </head>
@@ -25,7 +25,7 @@ function App() {
           <li><a href="about.html">ABOUT</a></li>
         </ul>
       </nav>
-      <h1 class="band-name band-name-large">The Generics</h1>
+      <h1 class="band-name band-name-large">Leaflet</h1>
       <div class="container">
         <button type="button" class="btn btn-header">
           Get our Latest Album

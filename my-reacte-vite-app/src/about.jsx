@@ -12,7 +12,7 @@ function App() {
     <>
 <html>
   <head>
-    <title>The Generics | About</title>
+    <title>Leaflet | About</title>
     <meta name="description" content="This is the description" />
     <link rel="stylesheet" href="App.css" />
   </head>
@@ -25,7 +25,7 @@ function App() {
           <li><a href="about.html">ABOUT</a></li>
         </ul>
       </nav>
-      <h1 class="band-name band-name-large">The Generics</h1>
+      <h1 class="band-name band-name-large">Leaflet</h1>
     </header>
 
     <section class="content-section container">
