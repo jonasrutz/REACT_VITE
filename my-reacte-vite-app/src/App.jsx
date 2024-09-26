@@ -23,7 +23,7 @@ function App() {
     <header class="main-header">
       <nav class="nav main-nav">
         <ul>
-        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html" >HOME</a></li>
           <li><a href="store.html">STORE</a></li>
           <li><a href="about.html">ABOUT</a></li>
         </ul>
@@ -117,5 +117,6 @@ function App() {
     </>
   )
 }
+
 
 export default App
