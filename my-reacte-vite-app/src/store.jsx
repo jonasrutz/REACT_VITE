@@ -1,5 +1,14 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import YoutubeLogo from "./Images/Youtube Logo.png"
+import SpotifyLogo from "./Images/Spotify Logo.png"
+import FacebookLogo from "./Images/Facebook Logo.png"
+import Album1 from "./Images/Album 1.png"
+import Album2 from "./Images/Album 2.png"
+import Album3 from "./Images/Album 3.png"
+import Album4 from "./Images/Album 4.png"
+import Shirt from "./Images/Shirt.png"
+import Coffee from "./Images/Cofee.png"
 import viteLogo from '/vite.svg'
 import './App.css'
 import "./about.jsx"
@@ -32,7 +41,7 @@ function App() {
       <div class="shop-items">
         <div class="shop-item">
           <span class="shop-item-title">Album 1</span>
-          <img class="shop-item-image" src="Images/Album 1.png" />
+          <img class="shop-item-image" src={Album1} />
           <div class="shop-item-details">
             <span class="shop-item-price">$12.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -42,7 +51,7 @@ function App() {
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Album 2</span>
-          <img class="shop-item-image" src="Images/Album 2.png" />
+          <img class="shop-item-image" src={Album2} />
           <div class="shop-item-details">
             <span class="shop-item-price">$14.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -52,7 +61,7 @@ function App() {
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Album 3</span>
-          <img class="shop-item-image" src="Images/Album 3.png" />
+          <img class="shop-item-image" src={Album3} />
           <div class="shop-item-details">
             <span class="shop-item-price">$9.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -62,7 +71,7 @@ function App() {
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Album 4</span>
-          <img class="shop-item-image" src="Images/Album 4.png" />
+          <img class="shop-item-image" src={Album4} />
           <div class="shop-item-details">
             <span class="shop-item-price">$19.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -77,7 +86,7 @@ function App() {
       <div class="shop-items">
         <div class="shop-item">
           <span class="shop-item-title">T-Shirt</span>
-          <img class="shop-item-image" src="Images/Shirt.png" />
+          <img class="shop-item-image" src={Shirt} />
           <div class="shop-item-details">
             <span class="shop-item-price">$19.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -87,7 +96,7 @@ function App() {
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Coffee Cup</span>
-          <img class="shop-item-image" src="Images/Cofee.png" />
+          <img class="shop-item-image" src={Coffee} />
           <div class="shop-item-details">
             <span class="shop-item-price">$6.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -109,7 +118,7 @@ function App() {
           <div class="cart-item cart-column">
             <img
               class="cart-item-image"
-              src="Images/Shirt.png"
+              src={Shirt}
               width="100"
               height="100"
             />
@@ -125,7 +134,7 @@ function App() {
           <div class="cart-item cart-column">
             <img
               class="cart-item-image"
-              src="Images/Album 3.png"
+              src={Album3}
               width="100"
               height="100"
             />
@@ -151,18 +160,18 @@ function App() {
         <h3 class="band-name">The Generics</h3>
         <ul class="nav footer-nav">
           <li>
-            <a href="https://www.youtube.com" target="_blank">
-              <img src="Images/YouTube Logo.png" />
+          <a href="https://www.youtube.com" target="_blank">
+              <img src={YoutubeLogo}  />
             </a>
           </li>
           <li>
             <a href="https://www.spotify.com" target="_blank">
-              <img src="Images/Spotify Logo.png" />
+              <img src={SpotifyLogo} />
             </a>
           </li>
           <li>
             <a href="https://www.facebook.com" target="_blank">
-              <img src="Images/Facebook Logo.png" />
+              <img src={FacebookLogo} />
             </a>
           </li>
         </ul>

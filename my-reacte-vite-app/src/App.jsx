@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import YoutubeLogo from "./Images/Youtube Logo.png"
+import SpotifyLogo from "./Images/Spotify Logo.png"
+import FacebookLogo from "./Images/Facebook Logo.png"
 import viteLogo from '/vite.svg'  
 import './App.css'
 import "./store.jsx"
@@ -92,17 +95,17 @@ function App() {
         <ul class="nav footer-nav">
           <li>
             <a href="https://www.youtube.com" target="_blank">
-              <img src="Images/YouTube Logo.png" />
+              <img src={YoutubeLogo}  />
             </a>
           </li>
           <li>
             <a href="https://www.spotify.com" target="_blank">
-              <img src="Images/Spotify Logo.png" />
+              <img src={SpotifyLogo} />
             </a>
           </li>
           <li>
             <a href="https://www.facebook.com" target="_blank">
-              <img src="Images/Facebook Logo.png" />
+              <img src={FacebookLogo} />
             </a>
           </li>
         </ul>

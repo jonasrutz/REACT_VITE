@@ -1,5 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import YoutubeLogo from "./Images/Youtube Logo.png"
+import SpotifyLogo from "./Images/Spotify Logo.png"
+import FacebookLogo from "./Images/Facebook Logo.png"
+import Members from "./Images/Band Members.png"
 import viteLogo from '/vite.svg'
 import './App.css'
 import "./store.jsx"
@@ -30,7 +34,7 @@ function App() {
 
     <section class="content-section container">
       <h2 class="section-header">ABOUT</h2>
-      <img class="about-band-image" src="Images/Band Members.png" />
+      <img class="about-band-image" src={Members} />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorum
         nulla accusantium perferendis quam explicabo odit quisquam ea natus?
@@ -60,18 +64,18 @@ function App() {
         <h3 class="band-name">The Generics</h3>
         <ul class="nav footer-nav">
           <li>
-            <a href="https://www.youtube.com" target="_blank">
-              <img src="Images/YouTube Logo.png" />
+          <a href="https://www.youtube.com" target="_blank">
+              <img src={YoutubeLogo}  />
             </a>
           </li>
           <li>
             <a href="https://www.spotify.com" target="_blank">
-              <img src="Images/Spotify Logo.png" />
+              <img src={SpotifyLogo} />
             </a>
           </li>
           <li>
             <a href="https://www.facebook.com" target="_blank">
-              <img src="Images/Facebook Logo.png" />
+              <img src={FacebookLogo} />
             </a>
           </li>
         </ul>
